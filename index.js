@@ -1,6 +1,6 @@
 // Start by requiring the packages.
 const Eris = require('eris')
-const client = new Eris('TOKEN') //Replace token with your bot token
+const client = new Eris.Client('TOKEN') //Replace token with your bot token
 
 // Variables
 const prefix = '!';
